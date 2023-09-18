@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-one{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: row;
+    width: 100%;
+    height: 7%;
+    background-color:black;
+    color: white;
+    /* padding: 1rem; */
+    cursor: pointer;
+    position: fixed;
+}
+.header-one input{
+    background-color: black;
+    border: none;
+    border-color: black;
+    font-size: 16px;
+    font-weight: 700;
+    border-color: black;
+    color: white;
+}
+.header-one:hover{
+    border-color:white ;
+}
+.nav-bar{
+    padding: 3rem;
+}
+.nav-bar ul{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-left: 55rem;
+    list-style: none;
+    font-weight: 500;
+    cursor: pointer;
+    position: fixed;
+    color: black;
+    gap: 2rem;
+}
+.nav-bar a{
+    text-decoration: none;
+}
+span a{
+    color:#dd7a56 ;
+}
+.nav-bar a:hover{
+    color: #dd7a56;
+}
+.nav-bar h2{
+    text-align: start;
+    margin-bottom: -1em;
+    margin-left: 3rem;
+    position: fixed;
+}
+.images h1{
+    text-align: center;
+    padding: 2rem;
+}
+/* card-one */
+.card-one img{
+    margin-left: 10rem;
+}
+.card-des{
+    margin-left: 26.7rem;
+    margin-top: -22.5rem;
+    background-color: rgb(255, 252, 252);
+    width: 23%;
+    height: 58vh;
+    border: 1px solid rgb(206, 198, 198);
+}
+.card-des h4:hover{
+    color:#dd7a56;
+    cursor: pointer;
+}
+.card-des p:hover{
+    color: #dd7a56;
+    cursor: pointer;
+}
+.card-des h6{
+    margin-left: 1rem;
+}
+.card-des h4{
+    margin-left: 1rem;
+}
+.card-des p{
+    margin-left: 1rem;
+}
+.card-two img{
+    margin-left: 10rem;
+}
+/* card-two */
+.card-descri{
+    margin-left: 26.7rem;
+    margin-top: -22.5rem;
+    background-color: rgb(255, 252, 252);
+    width: 23%;
+    height: 58vh;
+    border: 1px solid rgb(206, 198, 198);
+}
+.card-descri h4:hover{
+    color: #dd7a56;
+    cursor: pointer;
+}
+.card-descri p:hover{
+    color: #dd7a56;
+    cursor: pointer;
+}
+.card-descri h6{
+    margin-left:1rem;
+}
+.card-descri h4{
+    margin-left: 1rem;
+}
+.card-descri p{
+    margin-left: 1rem;
+}
+.card-three img{
+    margin-left: 10rem;
+}
+/* card-three */
+.card-description{
+    margin-left: 26.7rem;
+    margin-top: -22.5rem;
+    background-color: rgb(255, 252, 252);
+    width: 23%;
+    height: 58vh;
+    border: 1px solid rgb(206, 198, 198);
+}
+.card-description h4:hover{
+    color: #dd7a56;
+    cursor: pointer;
+}
+.card-description p:hover{
+    color: #dd7a56;
+    cursor: pointer;
+}
+.card-description h6{
+    margin-left: 1rem;
+}
+.card-description h4{
+    margin-left: 1rem;
+}
+.card-description p{
+    margin-left: 1rem;
+}
+.post button{
+    width: 8rem;
+    height: 3rem;
+    margin-left: 12rem;
+    background-color: #d1663f;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.post button:hover{
+    background-color: #000000;
+}
+.back-colr p{
+    width: 35%;
+    height: 230vh;
+    background-color: #f0cbbe;
+    margin-left: 50rem;
+    margin-top: -79.5rem;
+}
+.brown-card{
+    width: 25%;
+    height: 75vh;
+    background-color:#d1663f ;
+    margin-left: 54.5rem;
+    margin-top: -80rem;
+    color: white;
+    text-align: center;
+}
+.brown-card h1{
+    padding-top: 4rem;
+}
+.brown-card h5{
+    padding-top: 4rem;
+    margin-right: 9rem;
+    font-size: 20px;
+}
+.brown-card p{
+    margin-top: 5rem;
+}
+.brown-card input{
+    width: 14rem;
+    padding: 0.5rem;
+    background-color: #d1663f;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+.brown-card button{
+    width: 13rem;
+    height: 3rem;
+    color: #d1663f;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    padding-top: -20rem;
+}
+.brown-card button:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+.pic-part h2{
+    margin-left: 57rem;
+    padding: 1rem;
+}
+
+.img-part img{
+    width: 15%;
+    height: 15%;
+    margin-left: 59rem;
+    text-align: center;
+    cursor: pointer;
+}
+.icons-part ul{
+    margin-left: 46rem;
+    margin-bottom: -5rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5rem;
+    font-weight: 900;
+}
+.foot{
+    width: 100vw;
+    height: 60vh;
+    background-color: #f8cab9;
+    margin-top: 5rem;
+}
+.footer h1{
+    margin-top: -5rem;
+    margin-left: 24rem;
+}
+.footer-ipt{
+    margin-left: 20rem;
+    padding: 5rem;
+    border: none;
+    color: #d8886b;
+}
+.footer-ipt-two{
+    margin-left: 50rem;
+    margin-top: -10rem;
+    color: #d8886b;
+}
+.sub-btn button{
+    margin-left: 40rem;
+    margin-top: 5rem;
+    width: 8rem;
+    height: 3.5rem;
+    background-color: #d1663f;
+    border: none;
+    cursor: pointer;
+}
+.sub-btn button:hover{
+    background-color: #000000;
+    color: white;
+}
+.final-foot p{
+    width: 100vw;
+    height: 10vh;
+    background-color: #d1663f;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
